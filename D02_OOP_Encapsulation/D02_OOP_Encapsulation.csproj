@@ -56,8 +56,5 @@
       <Name>D00_Utility</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="_notes.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

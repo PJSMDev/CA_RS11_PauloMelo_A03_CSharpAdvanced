@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using D00_Utility;
 
 namespace D06_OOP_Interfaces
 {
@@ -11,6 +6,14 @@ namespace D06_OOP_Interfaces
     {
         static void Main(string[] args)
         {
+            CourseSoftSkills coursePt = new CourseSoftSkills(Language.Portuguese);
+            coursePt.DisplayCourseLanguage();
+
+            CourseSoftSkills courseEn = new CourseSoftSkills(Language.English);
+            courseEn.DisplayCourseLanguage();
+
+            CourseSoftSkills courseEs = new CourseSoftSkills(Language.Spanish);
+            courseEs.DisplayCourseLanguage();
         }
     }
 }

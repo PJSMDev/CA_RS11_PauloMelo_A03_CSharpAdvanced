@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course.cs" />
+    <Compile Include="CourseIT.cs" />
+    <Compile Include="CourseSoftSkills.cs" />
+    <Compile Include="IArea.cs" />
+    <Compile Include="ICourse.cs" />
+    <Compile Include="ICourseIT.cs" />
+    <Compile Include="ICourseSoftSkills.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,6 +61,9 @@
       <Project>{f3b0cf8a-75a9-4723-96ce-51462761b3d2}</Project>
       <Name>D00_Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
