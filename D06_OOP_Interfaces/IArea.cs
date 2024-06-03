@@ -10,6 +10,5 @@
         string Description { get; }
 
         #endregion
-
     }
 }

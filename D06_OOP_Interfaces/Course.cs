@@ -2,43 +2,37 @@
 
 namespace D06_OOP_Interfaces
 {
-    internal class Course : IArea, ICourse     // multi-herança de Interfaces
+    internal class Course : IArea, ICourse
     {
-
         #region Properties
 
-        public int CourseId { get; set; }       // todos os membros de um interface têm de ser public
-
-        public int AreaId { get; set; }     
-
+        public int CourseId { get; set; }
+        public int AreaId { get; set; }
         public string Name { get; set; }
-
         public string AreaName { get; set; }
-
         public string SubAreaName { get; set; }
-
         public string Description { get; set; }
-
-        public string FullCouse { get; set; }
+        public string FullCourse { get; set; }
 
         #endregion
 
         #region Methods
+
         public void ListCourse(string level)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Listing course {Name} at level {level}.");
         }
 
         public void ListCourse(DateTime timestamp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Listing course {Name} at {timestamp}.");
         }
 
         public void ReadCourse()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Reading course: {Name}");
         }
-        #endregion
 
+        #endregion
     }
 }

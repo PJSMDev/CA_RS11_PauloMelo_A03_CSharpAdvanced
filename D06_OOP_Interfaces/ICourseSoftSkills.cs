@@ -1,16 +1,11 @@
-﻿using System;
-
-namespace D06_OOP_Interfaces
+﻿namespace D06_OOP_Interfaces
 {
-    internal enum Language
+    internal interface ICourseSoftSkills : ICourse
     {
-        Portuguese,
-        English,
-        Spanish
-    }
+        #region Properties
 
-    internal interface ICourseSoftSkills
-    {
-        Language CourseLanguage { get; }
+        EnumLanguage CourseLanguage { get; }
+
+        #endregion
     }
 }

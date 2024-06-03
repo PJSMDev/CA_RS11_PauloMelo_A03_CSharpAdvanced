@@ -4,12 +4,11 @@ namespace D06_OOP_Interfaces
 {
     internal interface ICourse
     {
-
         #region Properties
 
         int CourseId { get; }
-        string Name {  get; }
-        string FullCouse { get; }
+        string Name { get; }
+        string FullCourse { get; }
 
         #endregion
 

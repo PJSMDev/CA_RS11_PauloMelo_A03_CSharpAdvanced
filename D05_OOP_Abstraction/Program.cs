@@ -21,7 +21,7 @@ namespace D05_OOP_Abstraction
 
             courseIT01.ReadCourse();
             courseIT01.ListCourse();
-            
+
             courseIT01.Billing("Pago.");
 
             #endregion

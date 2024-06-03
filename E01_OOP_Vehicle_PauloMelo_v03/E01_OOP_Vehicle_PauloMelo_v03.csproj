@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C17D3294-2592-4B16-99D7-E379B50E6DDA}</ProjectGuid>
+    <ProjectGuid>{8391F2DD-E42D-4E91-AEA5-08AAB27F8C5F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>D06_OOP_Interfaces</RootNamespace>
-    <AssemblyName>D06_OOP_Interfaces</AssemblyName>
+    <RootNamespace>E01_OOP_Vehicle_PauloMelo_v03</RootNamespace>
+    <AssemblyName>E01_OOP_Vehicle_PauloMelo_v03</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Course.cs" />
-    <Compile Include="CourseIT.cs" />
-    <Compile Include="CourseSoftSkills.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="IArea.cs" />
-    <Compile Include="ICourse.cs" />
-    <Compile Include="ICourseIT.cs" />
-    <Compile Include="ICourseSoftSkills.cs" />
+    <Compile Include="Classes\Airplane.cs" />
+    <Compile Include="Classes\Car.cs" />
+    <Compile Include="Classes\Enums.cs" />
+    <Compile Include="Classes\Submarine.cs" />
+    <Compile Include="Classes\Vehicle.cs" />
+    <Compile Include="Interfaces\IVehicle.cs" />
+    <Compile Include="Interfaces\IVehicleAir.cs" />
+    <Compile Include="Interfaces\IVehicleRoad.cs" />
+    <Compile Include="Interfaces\IVehicleWater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -64,8 +65,6 @@
       <Name>D00_Utility</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="_notes.txt" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
