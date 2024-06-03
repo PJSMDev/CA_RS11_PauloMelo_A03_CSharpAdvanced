@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8846FFB4-F154-4601-BC58-2688D9931A77}</ProjectGuid>
+    <ProjectGuid>{3B76E3BB-83DF-4BA9-ACC4-A8494F10EA5E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>D07_CollectionsGeneric_IEnumerable</RootNamespace>
     <AssemblyName>D07_CollectionsGeneric_IEnumerable</AssemblyName>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="D00_Utility">
+      <HintPath>..\..\D00_Utility\obj\Debug\D00_Utility.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NumberGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,10 +54,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\D00_Utility\D00_Utility.csproj">
-      <Project>{f3b0cf8a-75a9-4723-96ce-51462761b3d2}</Project>
-      <Name>D00_Utility</Name>
-    </ProjectReference>
+    <Content Include="_notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
