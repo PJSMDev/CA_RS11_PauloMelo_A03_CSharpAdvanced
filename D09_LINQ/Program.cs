@@ -31,7 +31,7 @@ namespace D09_LINQ
 
             #region D03 - Numbers greater or equal to 10
 
-            D01_HelloWorld.HelloWorldQuerySyntax();     // CORRIGIR
+            D01_HelloWorld.HelloWorldQuerySyntax();     
 
             #endregion
 
