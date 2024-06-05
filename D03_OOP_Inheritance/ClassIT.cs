@@ -9,13 +9,12 @@ using D00_Utility;
 
 namespace D03_OOP_Inheritance
 {
-    internal class CourseIT : Course // Corrigido para CourseIT
+    internal class ClassIT : Course
     {
         #region Properties
 
         internal bool Exam { get; set; }
 
-        // Ofuscar, criar uma nova com o mesmo nome: new
         // Reescrever a propriedade herdada: override
         internal override string FullCourse => $"Course nº {CourseId}: {Area} - {Name}, exam? {Exam}";
 
@@ -23,12 +22,12 @@ namespace D03_OOP_Inheritance
 
         #region Constructors
 
-        internal CourseIT() : base()
+        internal ClassIT() : base()
         {
             Exam = true;
         }
 
-        internal CourseIT(int courseId, string name, string area, bool exam) : base(courseId, name, area)
+        internal ClassIT(int courseId, string name, string area, bool exam) : base(courseId, name, area)
         {
             Exam = exam;
         }

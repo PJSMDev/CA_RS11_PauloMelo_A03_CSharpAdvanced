@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23A51B86-532C-425F-9AF9-31DB66D1CBCA}</ProjectGuid>
+    <ProjectGuid>{93731CA4-5511-442A-90D1-5ED62597C9FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>D09_LINQ</RootNamespace>
-    <AssemblyName>D09_LINQ</AssemblyName>
+    <RootNamespace>E02_LINQ_LinqToObjects</RootNamespace>
+    <AssemblyName>E02_LINQ_LinqToObjects</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D01_HelloWorld.cs" />
-    <Compile Include="D02_ShortNames.cs" />
-    <Compile Include="D03_NumbersGreaterOrEqualTo10.cs" />
+    <Compile Include="Classes\City.cs" />
+    <Compile Include="Classes\CityCustomer.cs" />
+    <Compile Include="Classes\Customer.cs" />
+    <Compile Include="Interfaces\ICity.cs" />
+    <Compile Include="Interfaces\ICustomer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="_notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23A51B86-532C-425F-9AF9-31DB66D1CBCA}</ProjectGuid>
+    <ProjectGuid>{A87C2172-BEB5-4BAD-BA36-81D0E451326E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>D09_LINQ</RootNamespace>
-    <AssemblyName>D09_LINQ</AssemblyName>
+    <RootNamespace>E03_LINQ_LinqMethods</RootNamespace>
+    <AssemblyName>E03_LINQ_LinqMethods</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D01_HelloWorld.cs" />
-    <Compile Include="D02_ShortNames.cs" />
-    <Compile Include="D03_NumbersGreaterOrEqualTo10.cs" />
+    <Compile Include="LinqMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="_notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
