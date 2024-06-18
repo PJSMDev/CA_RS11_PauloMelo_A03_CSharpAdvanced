@@ -40,10 +40,55 @@ namespace E03_LINQ_LinqMethods
 
         #endregion
 
-        #region
+        #region Listar timespans
+
+        internal void ListTimespans()
+        {
+
+            Utility.WriteTitle("Lista de timespans");
+
+            foreach (var item in timeSpanList)
+            {
+                Utility.WriteMessage(item.ToString(), "", "\n");
+            }
+        }
+
+        #endregion
+
+        #region Usar FindAll() para localizar todas as timespans inferiores a 12 horas
+
+        internal void FindAllTimespans()
+        {
+            var ex1 = timeSpanList.FindAll(t => t < new TimeSpan(12, 0, 0));
+            // var ex1 = timeSpanList.FindAll(t => t.Hours < 12);
+
+            Utility.WriteMessage("1. FindAll(): localizar todas as timespans inferiores a 12 horas", "", "\n");
+
+            foreach (TimeSpan t in ex1)
+            {
+                Utility.WriteMessage($"\t{t}", "", "\n");
+            }
+        }
+
+        #endregion
+
+        #region Usar Exists() para verificar se exuste alguma timespan tiver 5 na propriedade Hours
+
+
+        //   var list = timeSpanList.Exists(t => t.Hours == 5);
+
+        // if
+
         #endregion
 
         #region
+
+        internal void True()
+        {
+
+
+        }
+
         #endregion
     }
 }

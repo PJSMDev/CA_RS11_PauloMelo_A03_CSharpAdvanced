@@ -3,17 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using D00_Utility;
 
-namespace E03_LINQ_LinqMethods
+namespace D19_FuncionalidadesRecentes_LocalFunctions
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            // fazer um metodo agregador aqui também
-            //
         }
     }
 }
