@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3044E607-2F28-419B-A5D2-ABB9CEC419AF}</ProjectGuid>
+    <ProjectGuid>{B2FADE40-C28E-4199-8574-E56E24C10382}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>D19_FuncionalidadesRecentes_LocalFunctions</RootNamespace>
     <AssemblyName>D19_FuncionalidadesRecentes_LocalFunctions</AssemblyName>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="D00_Utility">
-      <HintPath>..\D00_Utility\obj\Debug\D00_Utility.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassLocalFunction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\D00_Utility\D00_Utility.csproj">
+      <Project>{d7f06a26-2224-4d22-aef5-2fc0c3615bf4}</Project>
+      <Name>D00_Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
