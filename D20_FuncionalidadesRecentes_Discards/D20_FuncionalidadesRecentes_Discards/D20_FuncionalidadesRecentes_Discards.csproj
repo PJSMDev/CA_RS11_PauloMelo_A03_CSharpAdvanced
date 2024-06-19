@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22F0C52A-9265-4A6C-ADDB-7A8262CFD15D}</ProjectGuid>
+    <ProjectGuid>{59F3BDF7-7431-4573-8D75-D3F9EFECD024}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>D17_FuncionalidadesRecentes_PatternMatching</RootNamespace>
-    <AssemblyName>D17_FuncionalidadesRecentes_PatternMatching</AssemblyName>
+    <RootNamespace>D20_FuncionalidadesRecentes_Discards</RootNamespace>
+    <AssemblyName>D20_FuncionalidadesRecentes_Discards</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="D00_Utility">
-      <HintPath>..\D00_Utility\obj\Debug\D00_Utility.dll</HintPath>
+    <Reference Include="D00_Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\D00_Utility\obj\Debug\D00_Utility.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassDiscard.cs" />
+    <Compile Include="ClassDiscardDeconstructor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
