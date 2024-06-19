@@ -1,0 +1,30 @@
+﻿----------------------
+IEnumerable<T>
+----------------------
+
+Suporta iteração direta na coleção
+Não suporta outros métodos
+Disponibiliza o iterador yield, sem ter de criar uma coleção
+
+
+
+
+----------------------
+IEnumerable<T> - yield
+----------------------
+
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/yield
+
+É um iterador da coleção, sem obrigar à sua criação
+Ganhos de performance
+Usa o conceito de 'lazy evaluation': valores gerados somente enquanto o método for consumido
+
+
+
+----------------------
+IList<T>
+----------------------
+
+Interface que herda de IEnumerable<T> a iteração direta na coleção
+Acrescenta métodos para manipular a coleção (Add, Remove, ...)
+

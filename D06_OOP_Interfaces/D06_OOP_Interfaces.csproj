@@ -46,6 +46,7 @@
     <Compile Include="Course.cs" />
     <Compile Include="CourseIT.cs" />
     <Compile Include="CourseSoftSkills.cs" />
+    <Compile Include="Enums.cs" />
     <Compile Include="IArea.cs" />
     <Compile Include="ICourse.cs" />
     <Compile Include="ICourseIT.cs" />
@@ -55,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\D00_Utility\D00_Utility.csproj">

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="E01_OOP_Vehicle_PauloMelo_v03.Classes.Airplane" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAABLAAAAAAAAAAAAAQAAAAAEAAIwgAQAIAAAA=</HashCode>
+      <FileName>Classes\Airplane.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="E01_OOP_Vehicle_PauloMelo_v03.Classes.Car" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEBABKAAAAQAAAAEAAAQEAEAAEAAIAgAgAIAAAA=</HashCode>
+      <FileName>Classes\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="E01_OOP_Vehicle_PauloMelo_v03.Classes.Submarine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAABKAAAAAAAACAACAQACAAAEAAIQgAAAMAAAA=</HashCode>
+      <FileName>Classes\Submarine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="E01_OOP_Vehicle_PauloMelo_v03.Enums" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E01_OOP_Vehicle_PauloMelo_v03.Program" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="E01_OOP_Vehicle_PauloMelo_v03.Interfaces.IVehicle" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABKAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="E01_OOP_Vehicle_PauloMelo_v03.Interfaces.IVehicleAir" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAwgAQAIAAAA=</HashCode>
+      <FileName>Interfaces\IVehicleAir.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="E01_OOP_Vehicle_PauloMelo_v03.Interfaces.IVehicleRoad" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAAAAAAQAAAAEAAAAEAEAAAAAAAgAgAIAAAA=</HashCode>
+      <FileName>Interfaces\IVehicleRoad.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="E01_OOP_Vehicle_PauloMelo_v03.Interfaces.IVehicleWater" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAACAACAAACAAAAAAAQgAAAMAAAA=</HashCode>
+      <FileName>Interfaces\IVehicleWater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

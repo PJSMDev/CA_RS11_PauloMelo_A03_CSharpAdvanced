@@ -7,7 +7,7 @@ using D00_Utility;
 
 namespace D03_OOP_Inheritance
 {
-    internal class Course
+    public class Course
     {
         #region Fields
 
@@ -32,7 +32,7 @@ namespace D03_OOP_Inheritance
             set => area = value.ToUpper();
         }
 
-        internal string FullCourse => $"Course nº {CourseId}: {Area} - {Name}";
+        internal virtual string FullCourse => $"Course nº {CourseId}: {Area} - {Name}";
 
         #endregion
 
