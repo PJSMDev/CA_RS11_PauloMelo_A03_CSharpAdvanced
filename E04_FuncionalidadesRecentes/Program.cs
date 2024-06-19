@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace D17_FuncionalidadesRecentes_PatternMatching
+namespace E04_FuncionalidadesRecentes
 {
     internal class Program
     {
