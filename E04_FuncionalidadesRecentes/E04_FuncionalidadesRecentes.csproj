@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2FADE40-C28E-4199-8574-E56E24C10382}</ProjectGuid>
+    <ProjectGuid>{98EEA864-F18F-464B-8BFD-9A0291C65E7F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>D19_FuncionalidadesRecentes_LocalFunctions</RootNamespace>
-    <AssemblyName>D19_FuncionalidadesRecentes_LocalFunctions</AssemblyName>
+    <RootNamespace>E04_FuncionalidadesRecentes</RootNamespace>
+    <AssemblyName>E04_FuncionalidadesRecentes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-
+    <Reference Include="D00_Utility">
+      <HintPath>..\D00_Utility\obj\Debug\D00_Utility.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,13 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassLocalFunction.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonExtentions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

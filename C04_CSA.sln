@@ -51,7 +51,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D19_FuncionalidadesRecentes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D20_FuncionalidadesRecentes_Discards", "D20_FuncionalidadesRecentes_Discards\D20_FuncionalidadesRecentes_Discards\D20_FuncionalidadesRecentes_Discards.csproj", "{59F3BDF7-7431-4573-8D75-D3F9EFECD024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04_FuncionalidadesRecentes", "E04_FuncionalidadesRecentes\E04_FuncionalidadesRecentes.csproj", "{4FAEFADB-91E8-4E22-852D-C6C827A4B169}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,10 +155,7 @@ Global
 		{59F3BDF7-7431-4573-8D75-D3F9EFECD024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F3BDF7-7431-4573-8D75-D3F9EFECD024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F3BDF7-7431-4573-8D75-D3F9EFECD024}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FAEFADB-91E8-4E22-852D-C6C827A4B169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FAEFADB-91E8-4E22-852D-C6C827A4B169}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FAEFADB-91E8-4E22-852D-C6C827A4B169}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FAEFADB-91E8-4E22-852D-C6C827A4B169}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
